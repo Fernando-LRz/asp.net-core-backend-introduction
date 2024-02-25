@@ -1,0 +1,31 @@
+### Get all todos
+
+GET http://localhost:5198/todos
+
+### Add a todo
+
+POST http://localhost:5198/todos
+content-type: application/json
+
+{
+    "id": 1,
+    "name": "Learn C#",
+    "dueDate": "2024-02-26",
+    "isCompleted": false
+}
+
+### Get a todo by id
+
+GET http://localhost:5198/todos/1
+
+###
+
+GET http://localhost:5198/tasks/1
+
+### Delete a todo by id
+
+DELETE http://localhost:5198/todos/1
+
+### 
+
+DELETE http://localhost:5198/tasks/1
